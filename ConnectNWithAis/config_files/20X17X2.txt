@@ -1,0 +1,4 @@
+num_cols : 17
+num_rows : 20
+num_pieces_to_win : 2
+blank_char : P

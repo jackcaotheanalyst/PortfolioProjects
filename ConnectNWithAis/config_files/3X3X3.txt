@@ -1,0 +1,4 @@
+num_rows : 3
+num_cols : 3
+num_pieces_to_win : 3
+blank_char : -
