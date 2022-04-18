@@ -20,7 +20,7 @@ c(sextip, smokertip, daytip, timetip, sizetip)
 #mean and standard deviation
 c(mean(data$tip), sd(data$tip), sqrt(var(data$tip)/dim(data)[1]))
 
-#condidence interval at 95% level
+#confidence interval at 95% level
 mean(data$tip)+c(-1,1)*1.96*sqrt(var(data$tip)/dim(data)[1])
 
 #bootstrap for standard deviation
